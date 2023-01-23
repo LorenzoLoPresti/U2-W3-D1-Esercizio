@@ -31,7 +31,7 @@ const tableData = () => {
 };
 
 // EVENTO AL CLICK
-btn[0].onclick = function () {
+btn[0].onclick = () => {
   assignValue(firstName.value, lastName.value, date);
 
   firstName.value === "" || lastName.value === "" || date.value === ""
